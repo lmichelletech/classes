@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+.board{
+    margin-top: 10vh;
+}
+.row{
+    border: 1px solid black;
+    display: flex;
+    height: auto;
+    width: 40vw;
+}
+
+.col{
+    flex: 1;
+    border-right: 1px solid black;
+    text-align: center;
+    line-height: 25vh;
+    font-size: 46px;
+    background-color: rgb(255,255,255);
+    min-height: 25vh;
+}
